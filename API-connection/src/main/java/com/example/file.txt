@@ -1,0 +1,45 @@
+             //example url: https://api.wheretheiss.at/v1/satellites/25544
+	         //example url: https://dog.ceo/api/breeds/list/all
+		     //snippet expected query "https://imdb8.p.rapidapi.com/auto-complete?q=game%20of%20thr	
+		     
+
+		     
+		     
+		/*
+		//get response from api 
+	    URL url = new URL("https://dog.ceo/api/breeds/image/random");
+	    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+	    connection.setRequestMethod("GET");
+	    */
+	    
+	    
+	    
+	    /*//idk if this is better below 
+		// Save the image to a local file
+		FileOutputStream out = new FileOutputStream("image.jpg");
+		byte[] buffer = new byte[2048];
+		int length;
+		while ((length = in.read(buffer)) != -1) {
+		    out.write(buffer, 0, length);
+		}
+		out.close();
+		*/
+		// Print a message to the user
+		//System.out.println("Image saved to image.jpg");
+		
+		
+		
+		
+			    /*
+	     //for url example 
+	    //use gson to trans is to jsonobj
+	    Gson gson = new Gson();
+	    InputStreamReader reader = new InputStreamReader(connection.getInputStream());
+		JsonObject json = gson.fromJson(reader, JsonObject.class);
+		
+		
+		// Get the URL of the random image from the JSON response
+		String str = json.get("message").getAsString();
+		
+		System.out.println(str);
+	    */
