@@ -25,7 +25,7 @@ public class ConnectingToEndpointDogBreeds {
 		
 			//<1>get an "endpoint" (resource url) should be at your api docs
 			//i.e. api docs "https://dog.ceo/dog-api/documentation/"
-            //i.e. endpoint "https://dog.ceo/api/breeds/list/all"  
+                        //i.e. endpoint "https://dog.ceo/api/breeds/list/all"  
 					
 			//<2>connect to endpoint
 			HttpRequest request = HttpRequest.newBuilder()
